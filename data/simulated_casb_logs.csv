@@ -1,0 +1,7 @@
+event_id,timestamp,source,user,activity,detail
+1,2025-05-07T08:45:00,cloud,alice,login,successful
+2,2025-05-07T08:50:00,casb,alice,file-download,confidential_report.pdf
+3,2025-05-07T08:55:00,cloud,bob,config-change,permission_update
+4,2025-05-07T09:00:00,casb,charlie,file-download,large_dataset.zip
+5,2025-05-07T09:05:00,cloud,alice,login,failed
+6,2025-05-07T09:10:00,casb,alice,file-access,classified_strategy.docx
