@@ -12,13 +12,16 @@ and produces automated mitigation recommendations.
 
 ## Usage
 1. Install dependencies:
+```
 pip install -r requirements.txt
-
-2. Run the application:
+```
+3. Run the application:
+```
 python src/main.py
-
+```
 
 ## Repository Structure
+```
 cloud-casb-insider-risk-analyzer/
 ├── README.md
 ├── requirements.txt
@@ -32,7 +35,7 @@ cloud-casb-insider-risk-analyzer/
     ├── behavioral_analysis.py
     ├── dashboard.py
     └── mitigation_suggestions.py
-
+```
 requirements.txt: List dependencies (e.g., Flask, dash, pandas, scikit-learn, plotly, requests).
 
 Example:
