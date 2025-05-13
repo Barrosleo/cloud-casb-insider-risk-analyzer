@@ -36,12 +36,16 @@ cloud-casb-insider-risk-analyzer/
     ├── dashboard.py
     └── mitigation_suggestions.py
 ```
-requirements.txt: List dependencies (e.g., Flask, dash, pandas, scikit-learn, plotly, requests).
+requirements.txt: 
+
+List dependencies (e.g., Flask, dash, pandas, scikit-learn, plotly, requests).
 
 Example:
+```
 Flask==2.2.2
 dash==2.9.0
 pandas==1.5.3
 plotly==5.13.1
 scikit-learn==1.2.2
 requests==2.28.2
+```
